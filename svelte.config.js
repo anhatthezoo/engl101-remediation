@@ -11,7 +11,7 @@ const config = {
 		adapter: adapter(),
 		appDir: 'app',
 		paths: {
-			base: dev ? '' : process.env.BASE_PATH
+			base: process.argv.includes('dev') ? '' : process.env.BASE_PATH
 		}
 	}
 };
