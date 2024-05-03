@@ -1,3 +1,16 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+    @font-face {
+        font-family: Manrope;
+        src: url(/fonts/Manrope[wght].woff2) format('woff2');
+        font-weight: 400;
+        font-style: normal;
+    }
+}
+
+p {
+    @apply mx-auto max-w-[800px] min-w-[800px] text-xl;
+}
