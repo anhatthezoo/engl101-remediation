@@ -3,7 +3,6 @@ export const getReadingTime = (paragraphs: HTMLParagraphElement[]): number => {
 
     for (const paragraph of paragraphs) {
         const text = paragraph.innerHTML;
-        console.log(text)
         content += text;
     }
 

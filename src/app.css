@@ -9,8 +9,85 @@
         font-weight: 400;
         font-style: normal;
     }
+
+    @font-face {
+        font-family: IBM Plex Serif;
+        src: url(/fonts/IBMPlexSerif-Thin.woff2) format('woff2');
+        font-weight: 100;
+        font-style: normal;
+    }
+
+    @font-face {
+        font-family: IBM Plex Serif;
+        src: url(/fonts/IBMPlexSerif-ExtraLight.woff2) format('woff2');
+        font-weight: 200;
+        font-style: normal;
+    }
+
+    @font-face {
+        font-family: IBM Plex Serif;
+        src: url(/fonts/IBMPlexSerif-Light.woff2) format('woff2');
+        font-weight: 300;
+        font-style: normal;
+    }
+
+    @font-face {
+        font-family: IBM Plex Serif;
+        src: url(/fonts/IBMPlexSerif-Regular.woff2) format('woff2');
+        font-weight: 400;
+        font-style: normal;
+    }
+
+    @font-face {
+        font-family: IBM Plex Serif;
+        src: url(/fonts/IBMPlexSerif-Text.woff2) format('woff2');
+        font-weight: 450;
+        font-style: normal;
+    }
+
+    @font-face {
+        font-family: IBM Plex Serif;
+        src: url(/fonts/IBMPlexSerif-Medium.woff2) format('woff2');
+        font-weight: 500;
+        font-style: normal;
+    }
+
+    @font-face {
+        font-family: IBM Plex Serif;
+        src: url(/fonts/IBMPlexSerif-MediumItalic.woff2) format('woff2');
+        font-weight: 500;
+        font-style: italic;
+    }
+
+    @font-face {
+        font-family: IBM Plex Serif;
+        src: url(/fonts/IBMPlexSerif-SemiBold.woff2) format('woff2');
+        font-weight: 600;
+        font-style: normal;
+    }
+
+    @font-face {
+        font-family: IBM Plex Serif;
+        src: url(/fonts/IBMPlexSerif-SemiBoldItalic.woff2) format('woff2');
+        font-weight: 600;
+        font-style: italic;
+    }
+
+    @font-face {
+        font-family: IBM Plex Serif;
+        src: url(/fonts/IBMPlexSerif-Bold.woff2) format('woff2');
+        font-weight: 700;
+        font-style: normal;
+    }
+
+    @font-face {
+        font-family: IBM Plex Serif;
+        src: url(/fonts/IBMPlexSerif-BoldItalic.woff2) format('woff2');
+        font-weight: 700;
+        font-style: italic;
+    }
 }
 
-p {
-    @apply mx-auto max-w-[800px] min-w-[800px] text-xl;
+.body-text {
+    @apply mx-auto mb-8 max-w-[700px] min-w-[700px] text-xl leading-[1.875rem] font-serif;
 }

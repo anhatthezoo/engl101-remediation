@@ -3,7 +3,7 @@
 </script>
 
 <svelte:head>
-    <title>Education in an AI World</title>
+    <title>Why we should embrace AI in education</title>
 </svelte:head>
 
 <slot/>
