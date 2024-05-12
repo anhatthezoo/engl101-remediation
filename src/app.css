@@ -91,3 +91,7 @@
 .body-text {
     @apply mx-auto mb-8 max-w-[700px] min-w-[700px] text-xl leading-[1.875rem] font-serif;
 }
+
+.citation {
+    @apply text-blue-500 font-medium hover:underline text-sm tracking-tight;
+}

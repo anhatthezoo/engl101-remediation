@@ -60,12 +60,16 @@
 			reading is too long? It could be summarized in just a few keystrokes. Beyond saving time, AI
 			can enhance the learning process by acting as a personal tutor. They can spot grammatical
 			errors, refine writing, and stimulate thinking (for example, offering multiple perspectives on
-			a topic). As of Fall 2023, half of college students have reported using AI for schoolwork.
+			a topic). As of Fall 2023, half of college students have reported using AI for schoolwork
+			according to a study conducted across over 600 institutions.
+			<sup>
+				<a href="#cite1" class="citation">[1]</a>
+			</sup>
 		</p>
 		<div class="mx-auto min-w-[700px] max-w-[700px] mb-6">
 			<!-- svelte-ignore a11y-media-has-caption -->
 			<video controls muted class="w-full border">
-				<source src="claude_summarize.mp4" type="video/mp4"/>
+				<source src="claude_summarize.mp4" type="video/mp4" />
 			</video>
 			<div class="mt-4">
 				<span class="font-serif mr-1 text-gray-400"
@@ -78,18 +82,29 @@
 			there have been concerns over academic integrity. Powerful language models can write essays,
 			reports, and analyses that are well-structured and indistinguishable from something written by
 			a human expert. One of GPT-4’s selling points was that it scored in the top 10% for a bar
-			exam. Claude 3 boasted that it possesses undergraduate-level expert knowledge and can read a
-			dense research paper in less than 3 seconds. All of these services are free to use. The fear
-			is that students may be tempted to submit an entirely AI-generated output as their original
-			work, allowing them to cheat on a massive scale.
+			exam.
+			<sup>
+				<a href="#cite2" class="citation">[2]</a>
+			</sup>
+			Claude 3 boasted that it possesses undergraduate-level expert knowledge and can read a dense research
+			paper in less than 3 seconds.
+			<sup>
+				<a href="#cite3" class="citation">[3]</a>
+			</sup>
+			All of these services are free to use. The fear is that students may be tempted to submit an entirely
+			AI-generated output as their original work, allowing them to cheat on a massive scale.
 		</p>
 		<p class="body-text">
 			However, these concerns, while valid, are likely overstated. Of course, students will always
 			find a way to cheat. A study has shown that around 60 to 70% of students have admitted to
 			cheating at some point before, and that number has stayed the same over the past few years
-			even with the new technology. Just as students could copy text from the Internet or hire
-			someone to write essays in the past, these new generative AI services are simply a new tool.
-			Strong academic integrity policies and honor codes are still effective deterrents.
+			even with the new technology.
+			<sup>
+				<a href="#cite4" class="citation">[4]</a>
+			</sup>
+			Just as students could copy text from the Internet or hire someone to write essays in the past,
+			these new generative AI services are simply a new tool. Strong academic integrity policies and
+			honor codes are still effective deterrents.
 		</p>
 		<p class="body-text">
 			Plus, viewing AI assistance as outright “cheating” fails to recognize the ways that these
@@ -100,12 +115,18 @@
 			a survey conducted by the Pew Research Center, 57% of teens believe it is unacceptable to use
 			ChatGPT to write essays, while 69% of teens think it could be used for researching a new
 			topic.
+			<sup>
+				<a href="#cite5" class="citation">[5]</a>
+			</sup>
 		</p>
 		<p class="body-text">
 			Traditional essays, reports, and other forms of homework have to adapt to LLMs’ advanced
 			language abilities. Already, “AI detectors” marketed as anti-cheating tools have shown
 			themselves to be ineffective and even harmful, flagging formal writing such as the U.S.
 			Constitution and the Bible to be “AI generated.”
+			<sup>
+				<a href="#cite6" class="citation">[6]</a>
+			</sup>
 		</p>
 		<div class="mx-auto min-w-[700px] max-w-[700px] mb-6">
 			<img
@@ -129,8 +150,12 @@
 		</p>
 		<p class="body-text">
 			One teacher in New York has incorporated AI into their curriculum by allowing students to
-			critique it. When shown a lesson plan on wearable technology created by ChatGPT, the students
-			found that ChatGPT included false information and appeared to be biased toward wearables.
+			critique it.
+			<sup>
+				<a href="#cite7" class="citation">[7]</a>
+			</sup>
+			When shown a lesson plan on wearable technology created by ChatGPT, the students found that ChatGPT
+			included false information and appeared to be biased toward wearables.
 		</p>
 		<p class="body-text">
 			Generative AI is rapidly transforming education and how students approach assignments. Rather
@@ -140,7 +165,81 @@
 		</p>
 	</div>
 	<div class="mb-8">
-		<h1 class="font-sans font-semibold text-3xl mx-auto min-w-[700px] max-w-[700px]">References</h1>
+		<h1 class="font-sans mb-8 font-semibold text-3xl mx-auto min-w-[700px] max-w-[700px]">
+			References
+		</h1>
+		<ol class="mx-auto min-w-[700px] max-w-[700px] list-decimal list-inside text-md">
+			<li class="mb-4" id="cite1">
+				<a
+					class="text-blue-500 underline"
+					href="https://www.insidehighered.com/news/tech-innovation/artificial-intelligence/2023/10/31/most-students-outrunning-faculty-ai-use"
+					>Most students outrunning faculty in AI use, study finds.</a
+				>
+				<span>
+					Coffey, Lauren. Inside Higher Ed. 31 October 2023.
+				</span>
+			</li>
+			<li class="mb-4" id="cite2">
+				<a
+					class="text-blue-500 underline"
+					href="https://cdn.openai.com/papers/gpt-4.pdf"
+					>GPT-4 Technical Report.</a
+				>
+				<span>
+					OpenAI. 2023.
+				</span>
+			</li>
+			<li class="mb-4" id="cite3">
+				<a
+					class="text-blue-500 underline"
+					href="https://www.anthropic.com/news/claude-3-family"
+					>Introducing the next generation of Claude.</a
+				>
+				<span>
+					Anthropic. 4 May 2024.
+				</span>
+			</li>
+			<li class="mb-4" id="cite4">
+				<a
+					class="text-blue-500 underline"
+					href="https://ed.stanford.edu/news/what-do-ai-chatbots-really-mean-students-and-cheating"
+					>What do AI chatbots really mean for students and cheating?</a
+				>
+				<span>
+					Spector, Carrie. 31 October 2023.
+				</span>
+			</li>
+			<li class="mb-4" id="cite5">
+				<a
+					class="text-blue-500 underline"
+					href="https://www.pewresearch.org/short-reads/2023/11/21/what-the-data-says-about-americans-views-of-artificial-intelligence/"
+					>GWhat the data says about Americans’ views of artificial intelligence.</a
+				>
+				<span>
+					Faverio, Michelle. Tyson, Alec. 21 November 2023.
+				</span>
+			</li>
+			<li class="mb-4" id="cite6">
+				<a
+					class="text-blue-500 underline"
+					href="https://arstechnica.com/information-technology/2023/07/why-ai-detectors-think-the-us-constitution-was-written-by-ai/"
+					>Why AI writing detectors don’t work.</a
+				>
+				<span>
+					Edwards, Benj. 14 July 2023.
+				</span>
+			</li>
+			<li class="mb-4" id="cite7">
+				<a
+					class="text-blue-500 underline"
+					href="https://www.nytimes.com/2023/02/06/technology/chatgpt-schools-teachers-ai-ethics.html"
+					>At This School, Computer Science Class Now Includes Critiquing Chatbots.</a
+				>
+				<span>
+					Singer, Natasha. 6 February 2023.
+				</span>
+			</li>
+		</ol>
 	</div>
 </main>
 <footer class="w-full flex border-t border-t-gray-300">
