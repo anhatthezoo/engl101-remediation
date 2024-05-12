@@ -62,6 +62,17 @@
 			errors, refine writing, and stimulate thinking (for example, offering multiple perspectives on
 			a topic). As of Fall 2023, half of college students have reported using AI for schoolwork.
 		</p>
+		<div class="mx-auto min-w-[700px] max-w-[700px] mb-6">
+			<!-- svelte-ignore a11y-media-has-caption -->
+			<video controls muted class="w-full border">
+				<source src="claude_summarize.mp4" type="video/mp4"/>
+			</video>
+			<div class="mt-4">
+				<span class="font-serif mr-1 text-gray-400"
+					>Claude 3 summarizing the Wiki page for the Maryland Terrapins.</span
+				>
+			</div>
+		</div>
 		<p class="body-text">
 			With how good AI has become at producing text and even reasoning, it’s understandable that
 			there have been concerns over academic integrity. Powerful language models can write essays,
@@ -99,14 +110,14 @@
 		<div class="mx-auto min-w-[700px] max-w-[700px] mb-6">
 			<img
 				class="border mb-4"
-				src="\bible_ai_generated_ars_technica.jpg"
+				src="bible_ai_generated_ars_technica.jpg"
 				alt="ZeroGPT believes that the Bible is AI generated"
 			/>
-			<div>
-				<span class="font-serif mt-4 mr-1 text-gray-400"
+			<div class="mt-4">
+				<span class="font-serif mr-1 text-gray-400"
 					>ZeroGPT believes that the Bible is AI generated.</span
 				>
-				<span class="font-serif mt-4 text-gray-400 text-sm italic">Ars Technica</span>
+				<span class="font-serif text-gray-400 text-sm italic">Ars Technica</span>
 			</div>
 		</div>
 		<p class="body-text">
